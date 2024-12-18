@@ -8,6 +8,8 @@ import Profile from './components/Profile';
 import AdminPanel from './components/AdminPanel';
 import Users from './components/admin/Users';
 import Tokens from './components/admin/Tokens';
+import ChannelPage from './ChannelPage';
+
 
 // Компонент для защищенных маршрутов
 const ProtectedRoute = ({ element, condition, redirectTo = '/' }) => {
@@ -130,6 +132,9 @@ function App() {
                         </Layout>
                     }
                 />
+            <Routes>
+                <Route path="/channel/:streamId" element={<ChannelPage />} />
+        </Routes>
             </Routes>
         </Router>
     );
