@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "6762b2b95eb99a72c29b2c2a"
+  },
+  "username": "lew3l1",
+  "email": "lew3l1@gmail.com",
+  "password": "$2b$10$Rj3/9QcPsYVUh4.SNL0M8eQop5M41j/.9iNY8XX5mkWFP4mUgd4ty",
+  "role": "user",
+  "favorites": [],
+  "createdAt": {
+    "$date": "2024-12-18T11:32:09.555Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-18T11:32:09.555Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6762b2e95eb99a72c29b2c2f"
+  },
+  "username": "27",
+  "email": "27@gmail.com",
+  "password": "$2b$10$gt2ukSohX7/61nSOrF0dmOcXP7OAz7QzUzdIvtC/kagCZ3dtZhp3m",
+  "role": "user",
+  "favorites": [],
+  "createdAt": {
+    "$date": "2024-12-18T11:32:57.983Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-18T11:32:57.983Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6762b61423e58a06fc774615"
+  },
+  "username": "1337",
+  "email": "1337@gmail.com",
+  "password": "$2b$10$eKAikCWjLbsOwnX9T/l/0uI61K6rEFfftCYXsHiBMIfGJFFAOF0gK",
+  "role": "user",
+  "favorites": [],
+  "createdAt": {
+    "$date": "2024-12-18T11:46:28.785Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-18T11:46:28.785Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6762ce9c9595b0d4a6913948"
+  },
+  "username": "SS21",
+  "email": "21@gmail.com",
+  "password": "$2b$10$An9ECwUf02C5JKS4E0jcku4pRWX4Z1UlVONLX4Psn.XfWg6uL6nwK",
+  "role": "user",
+  "favorites": [],
+  "createdAt": {
+    "$date": "2024-12-18T13:31:08.708Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-18T13:31:08.708Z"
+  },
+  "__v": 0
+}]
