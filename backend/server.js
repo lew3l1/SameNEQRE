@@ -11,6 +11,7 @@ const adminRoutes = require('./routes/admin');
 const streamRoutes = require('./routes/streams');
 const clipRoutes = require('./routes/clips');
 const profileRoutes = require('./routes/profile');
+const streamRoutes = require('./routes/stream');
 
 // Подключение к базе данных
 connectDB();
@@ -40,6 +41,14 @@ app.use((err, req, res, next) => {
     res.status(500).json({ error: 'Something went wrong!' });
 });
 
+
+app.use(express.json());
+
+// Подключение маршрутов
+app.use('/api/streams', streamRoutes);
+
 // Запуск сервера
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+
