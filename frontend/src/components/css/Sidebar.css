@@ -1,0 +1,56 @@
+.sidebar {
+    width: 50px; /* Уменьшенная ширина */
+    background-color: #1e1e1e;
+    height: 100vh;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+    cursor: pointer;
+    position: relative; /* Для позиционирования выделения */
+}
+
+.sidebar li.active::before {
+    content: '';
+    position: absolute;
+    left: 0; /* Фиолетовая линия слева */
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: #d264ff; /* Розово-фиолетовый цвет */
+    border-radius: 2px;
+}
+
+.sidebar li.active .icon {
+    color: #d264ff; /* Розовая иконка для активного элемента */
+}
+
+.sidebar li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Центрирование иконки */
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.icon {
+    font-size: 1.5em;
+}
+
+.sidebar li a:hover .icon {
+    color: #d264ff; /* Розовый цвет при наведении */
+}
